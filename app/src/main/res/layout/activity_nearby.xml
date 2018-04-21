@@ -1,0 +1,93 @@
+<FrameLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment android:id="@+id/map"
+
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        tools:context="com.androidtutorialpoint.googlemapsnearbyplaces.MapsActivity"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <!--<Button
+
+            android:id="@+id/btnRestaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Restaurants"
+            android:layout_marginRight="20dp"
+            android:shadowColor="@color/colorPrimaryDark"/>
+
+        <Button
+
+            android:id="@+id/btnHospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text=" Hospitals"
+            android:layout_marginRight="20dp"
+            android:shadowColor="@color/colorPrimaryDark"
+            />
+
+        <Button
+
+            android:id="@+id/btnSchool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="Schools"
+            android:layout_marginRight="20dp"
+            android:shadowColor="@color/colorPrimaryDark"/>-->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="124dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="4"
+            android:layout_marginTop="30dp"
+            style="@style/spinner_style"
+
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            tools:layout_editor_absoluteX="129dp"
+            tools:layout_editor_absoluteY="188dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+
+            android:background="@drawable/buttonstylenearby"
+            />
+        <!--<TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />-->
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

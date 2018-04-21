@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">On The Way</string>
+    <string name="title_activity_maps"> On The Way</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="sucess">Thank you for your feedback.</string>
+    <string name="fail">Please write something before you submit your feedback</string>
+    <string name="save_success">Your route has been saved</string>
+    <string name="save_fail">Please write description before saving route</string>
+    <string-array name="list">
+        <item>Restaurant</item>
+        <item>Hospital</item>
+        <item>ATM</item>
+        <item>Department store</item>
+        <item>Petrol pump</item>
+
+
+
+    </string-array>
+
+
+</resources>

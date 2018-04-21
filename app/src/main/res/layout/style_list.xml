@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.sunsun.shoppingrouteguide.SwipeListViewScroll
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtview_description"
+                    android:gravity="center_vertical"
+                    android:height="30dp"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/txtview_origin"
+                    android:textSize="14dp"
+                    android:gravity="center_vertical"
+                    android:height="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtview_destination"
+                    android:textSize="14dp"
+                    android:gravity="center_vertical"
+                    android:height="20dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/delete"
+                    android:text="Delete"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/colorAccent"/>
+                <ImageButton
+                    android:id="@+id/open"
+                    android:layout_width="80dp"
+                    android:src="@android:drawable/ic_menu_send"
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+</com.example.sunsun.shoppingrouteguide.SwipeListViewScroll>
+</LinearLayout>

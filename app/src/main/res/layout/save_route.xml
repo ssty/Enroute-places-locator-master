@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:layout_margin="5dp"
+            android:text="Save Route"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="From" />
+
+    <EditText
+        android:id="@+id/from_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" From "
+        android:textAlignment="textStart" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="To" />
+
+    <EditText
+        android:id="@+id/to_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" To "
+        android:textAlignment="textStart" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="Via" />
+
+    <EditText
+        android:id="@+id/via_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Via "
+        android:textAlignment="textStart" />
+    <EditText
+        android:id="@+id/des_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Route Description"
+        android:textAlignment="textStart"
+        android:imeOptions="actionDone"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
